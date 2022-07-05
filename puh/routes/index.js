@@ -27,7 +27,7 @@ router.get('/gusto', function(req, res, next) {
 /* Страница Колдун Гамми */
 router.get('/koldun', function(req, res, next) {
   res.render('hero', {
-    title: "Бабушка Гамми",
+    title: "Колдун Гамми",
     picture: "images/koldun.jpg",
     desc: "Любит изучать книги, механику и магию."
   })
@@ -36,7 +36,7 @@ router.get('/koldun', function(req, res, next) {
 /* Страница Малыш Гамми */
 router.get('/malish', function(req, res, next) {
   res.render('hero', {
-    title: "Бабушка Гамми",
+    title: "Малыш Гамми",
     picture: "images/malish.jpg",
     desc: "Любит сказки о рыцарях и игры, связанные с ними."
   })
@@ -45,7 +45,7 @@ router.get('/malish', function(req, res, next) {
 /* Страница Солнышко Гамми */
 router.get('/solnishko', function(req, res, next) {
   res.render('hero', {
-    title: "Бабушка Гамми",
+    title: "Солнышко Гамми",
     picture: "images/solnishko.jpg",
     desc: "Любит сказки о принцессах и наблюдать за людьми."
   })
@@ -54,7 +54,7 @@ router.get('/solnishko', function(req, res, next) {
 /* Страница Толстун Гамми */
 router.get('/tolstun', function(req, res, next) {
   res.render('hero', {
-    title: "Бабушка Гамми",
+    title: "Толстун Гамми",
     picture: "images/tolstun.jpg",
     desc: "Любит помогать всем, спать и кушать."
   })
@@ -63,7 +63,7 @@ router.get('/tolstun', function(req, res, next) {
 /* Страница Ворчун Гамми */
 router.get('/vorchun', function(req, res, next) {
   res.render('hero', {
-    title: "Бабушка Гамми",
+    title: "Ворчун Гамми",
     picture: "images/vorchun.jpg",
     desc: "Любит ворчать и спорить."
   })
